@@ -10,7 +10,7 @@ class CfgAddons
 {
     class PreloadAddons
     {
-        class ModTemplate
+        class FirstMod
         {
             list[]={};
         };
@@ -19,10 +19,10 @@ class CfgAddons
 
 class CfgMods
 {
-    class ModTemplate
+    class FirstMod
     {
         name="";
-        dir="ModTemplate";
+        dir="FirstMod";
         picture="";
         action="";
         author="";
@@ -44,21 +44,21 @@ class CfgMods
 
 			class engineScriptModule 
 			{ 
-				files[] = { "ModTemplate/Scripts/1_Core"};
+				files[] = { "FirstMod/Scripts/1_Core"};
 			};
 
 			class gameScriptModule
 			{
-				files[] = { "ModTemplate/Scripts/3_Game" };
+				files[] = { "FirstMod/Scripts/3_Game" };
 			};
 			class worldScriptModule
 			{
-				files[] = { "ModTemplate/Scripts/4_World" };
+				files[] = { "FirstMod/Scripts/4_World" };
 			};
 
 			class missionScriptModule 
 			{
-				files[] = { "ModTemplate/Scripts/5_Mission" };
+				files[] = { "FirstMod/Scripts/5_Mission" };
 			};
 		};
     };
